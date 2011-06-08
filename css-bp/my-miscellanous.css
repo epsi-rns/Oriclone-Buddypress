@@ -1,0 +1,53 @@
+
+
+
+/* > Admin Bar
+-------------------------------------------------------------- */
+
+#wp-admin-bar .padder {
+	width: 90% !important; /* Line up the admin bar with the content body in this theme */
+}
+
+
+
+
+/* > Directories (Members, Groups, Blogs, Forums)
+-------------------------------------------------------------- */
+
+div.dir-search {
+	float: right;
+	margin: -37px 0 0 0;
+}
+	div.dir-search input[type=text] {
+		padding: 4px;
+		font-size: 12px;
+	}
+
+/* > AJAX Loaders
+-------------------------------------------------------------- */
+
+.ajax-loader {
+	background: url( ../images/buddypress/ajax-loader.gif ) center left no-repeat !important;
+	padding: 8px;
+	display: none;
+}
+
+a.loading {
+	background-image: url( ../images/buddypress/ajax-loader.gif ) !important;
+	background-position: 95% 50% !important;
+	background-repeat: no-repeat !important;
+	padding-right: 25px !important;
+}
+
+/* > Footer
+-------------------------------------------------------------- */
+
+#footer {
+	padding: 25px;
+	text-align: center;
+	color: #bbb;
+	text-shadow: #fafafa 1px 1px 0;
+}
+	#footer a {
+		color: #bbb;
+	}

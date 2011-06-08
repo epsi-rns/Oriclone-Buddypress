@@ -1,0 +1,37 @@
+
+/* > Error / Success Messages
+-------------------------------------------------------------- */
+
+div#message {
+	margin: 15px 0;
+}
+	div#message.updated { clear: both; }
+
+div#message p {
+	padding: 10px 15px;
+	font-size: 12px;
+	display:block;
+}
+	div#message.error p {
+		background: #e41717;
+		color: #fff;
+		border-color: #a71a1a;
+		clear: left;
+	}
+
+	div#message.updated p {
+		background: #dffcd9;
+		color: #1a9b00;
+		border-color: #c4e9bd;
+	}
+
+form.standard-form#signup_form div div.error {
+	color: #fff;
+	background: #e41717;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 6px;
+	width: 90%;
+	margin: 0 0 10px 0;
+}

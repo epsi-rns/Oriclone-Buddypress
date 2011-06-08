@@ -1,0 +1,55 @@
+/*
+Theme Name: BuddyPress Oriclone
+Theme URI: http://iluni-ftui.org/
+Description: The Oriclone Theme for BuddyPress.
+Version: 1.0
+Author: E.R. Nurwijayadi
+Author URI: http://iluni-ftui.org/
+Template: bp-default
+Tags: buddypress, two-column, grey, dark
+*/
+
+/* Reset browser defaults */
+/*@import url( css-dev/reset.css );*/
+@import url( css-dev/wp-default.css );
+
+/* Inherit the default theme styles */
+@import url( _inc/css/adminbar.css );
+
+@import url( css-bp/bp-activity-stream.css );
+@import url( css-bp/bp-input-forms.css );
+@import url( css-bp/bp-group-forum.css );
+@import url( css-bp/bp-pagination.css );
+@import url( css-bp/bp-items.css );
+@import url( css-bp/bp-item-headers.css );
+@import url( css-bp/bp-data-tables.css );
+@import url( css-bp/bp-messages.css );
+
+/* Uncomment the following line and add your custom styles to '_inc/css/custom.css' */
+/* @import url( _inc/css/custom.css ); */
+
+@import url( css-dev/layout.css );
+@import url( css-dev/theme.css );
+@import url( css-dev/messages.css );
+
+@import url( css-dev/header.css );
+@import url( css-dev/footer.css );
+@import url( css-dev/menumatic.css );
+
+@import url( css-dev/typography.css );
+@import url( css-dev/scheme.css );
+@import url( css-dev/background.css );
+
+@import url( css-dev/module.css );
+@import url( css-dev/docs.css );
+@import url( css-dev/calendar.css );
+
+@import url( css-dev/my-contact.css );
+@import url( css-dev/my-home.css );
+@import url( css-dev/bp-custom.css );
+@import url( css-dev/silk.css );
+@import url( css-dev/features.css );
+
+/* below is for debuggin' purpose, remove it after design completed */
+body { min-width: 780px; }
+/*body.width_fluid	div#wrapper {	width: 1260px;	}*/

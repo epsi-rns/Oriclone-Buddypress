@@ -1,0 +1,17 @@
+#oc_loading { 
+	clear:both; 
+	background:url(images/loading.gif) center top no-repeat; 
+	text-align:center;
+	padding:33px 0px 0px 0px; 
+	font-size:12px;
+	display:none; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+#oc_params_container {
+	text-align:left;
+	margin: 0, auto;
+}
+#namediv input[type="text"] { width: auto; }
+
+.oc_tabs a { white-space:nowrap; };
+

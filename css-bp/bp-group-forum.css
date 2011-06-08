@@ -1,0 +1,52 @@
+
+
+/* > Group Forum Topics
+-------------------------------------------------------------- */
+
+ul#topic-post-list {
+	margin: 15px -20px;
+	width: auto;
+}
+	ul#topic-post-list li {
+		padding: 15px;
+		position: relative;
+	}
+
+	ul#topic-post-list li.alt {
+		background: #f4f4f4;
+	}
+
+	ul#topic-post-list li div.poster-meta {
+		margin-bottom: 10px;
+		color: #888;
+	}
+
+	ul#topic-post-list li div.post-content {
+		margin-left: 54px;
+	}
+
+div.admin-links {
+	position: absolute;
+	top: 15px;
+	right: 25px;
+	color: #888;
+	font-size: 11px;
+}
+	div#topic-meta div.admin-links {
+		bottom: 0;
+		right: 0;
+		top: auto;
+	}
+
+div#topic-meta {
+	position: relative;
+	padding: 5px 0;
+}
+	div#topic-meta h3 {
+		font-size: 20px;
+	}
+
+div#new-topic-post {
+	margin: 0;
+	padding: 1px 0 0 0;
+}

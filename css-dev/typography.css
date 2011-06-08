@@ -1,0 +1,87 @@
+body {
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+}
+
+@font-face {
+    font-family: Diavlo;
+	src: url(../fonts/Diavlo_MEDIUM_II_37.otf) format("opentype");
+}
+
+#lay_content { 
+	font-size: 13px; 
+}	
+
+/* Heading */
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0 15px 0;
+}
+
+h3.panetitle { margin: 0px; }
+
+h1 { font-size: 28px; margin-bottom: 25px; }
+h2 { font-size: 24px; margin-bottom: 20px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; margin-bottom: 15px; }
+h5 { font-size: 14px; margin-bottom: 0; }
+h6 { font-size: 12px; margin-bottom: 0; }
+/*
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover 
+	{ border-bottom:1px dashed #CCC;}
+h3 {border-bottom:1px dotted #CCC;}
+*/
+h1 {padding-bottom: 8px;}
+
+
+
+/* http://webdesign.about.com/od/beginningcss/a/aa092107.htm */
+/* 
+h1 { font: bold italic 2em "Times New Roman", Times, serif; }
+h2 { font: bold 1.7em "Times New Roman", Times, serif; }
+*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Geneva, Helvetica, sans-serif; 
+}
+
+h3.panetitle { 
+	font-family: Diavlo, Arial, Geneva, Helvetica, sans-serif; 
+	_font-family: Arial, Geneva, Helvetica, sans-serif; 	
+	text-shadow: #ccc 2px 2px 1px;		
+}
+h3.panetitle:hover { 
+	text-shadow: black 1px 1px 2px;	
+}
+
+h1#sitename a {
+	font-size: 28px;
+	font-style: italic;
+	font-family: Diavlo, Georgia, times, serif;
+	_font-family: Georgia, times, serif;
+  	font-weight:bold;
+}
+
+.breadcrumbs,
+#lay_bottom h3 { 
+	font-family:  Arial, Geneva, Helvetica, sans-serif;
+	font-size: 12px; 
+	font-weight : normal;
+}
+
+div.bp-widget h4,
+.directory-sidebar h3,
+.widget h3 { 
+	font-family: Tahoma, Verdana, Arial, Geneva, Helvetica, sans-serif !important;
+	font-size: 12px; 
+	font-weight : 600;
+}
+
+div.bp-widget h4 a { font-weight : normal; }
+
+#lay_bottom h3 { 
+	border: none; 
+	font-size: 1.5em; 
+	line-height: 14px;
+}
+
+#lay_main a { text-decoration: none;}
+#lay_main a:hover { text-decoration: underline;}

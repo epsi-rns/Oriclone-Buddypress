@@ -1,0 +1,61 @@
+/* -- web2 calendar -- */
+/* http://www.euphorish.com/2007/web-20-date-icons-for-your-blog/ */
+
+.the_date {
+	float: left;
+	margin-right: 6px;
+	width: 42px;
+	height: 42px;
+
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:transparent;
+	background-repeat:no-repeat;
+}
+
+.date_m {
+	font-size: .9em;
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	text-align:center;
+	color: white;
+}
+
+.date_d {
+	font-size:1.4em;
+	margin:0;
+	text-align: center;
+}
+
+.the_date-01 { background-image: url(../images/dateicons/black.png); }
+.the_date-02 { background-image: url(../images/dateicons/blue.png); }
+.the_date-03 { background-image: url(../images/dateicons/blue2.png); }
+.the_date-04 { background-image: url(../images/dateicons/blue3.png); }
+.the_date-05 { background-image: url(../images/dateicons/blue4.png); }
+.the_date-06 { background-image: url(../images/dateicons/blue5-2.png); }
+.the_date-07 { background-image: url(../images/dateicons/blue5.png); }
+.the_date-08 { background-image: url(../images/dateicons/bluegray.png); }
+.the_date-09 { background-image: url(../images/dateicons/brown1.png); }
+.the_date-10 { background-image: url(../images/dateicons/brown2.png); }
+.the_date-11 { background-image: url(../images/dateicons/green1.png); }
+.the_date-12 { background-image: url(../images/dateicons/green2.png); }
+.the_date-13 { background-image: url(../images/dateicons/green3.png); }
+.the_date-14 { background-image: url(../images/dateicons/green4.png); }
+.the_date-15 { background-image: url(../images/dateicons/green5.png); }
+.the_date-16 { background-image: url(../images/dateicons/orange1.png); }
+.the_date-17 { background-image: url(../images/dateicons/orange2.png); }
+.the_date-18 { background-image: url(../images/dateicons/pink.png); }
+.the_date-19 { background-image: url(../images/dateicons/purple.png); }
+.the_date-20 { background-image: url(../images/dateicons/purple2.png); }
+.the_date-21 { background-image: url(../images/dateicons/red.png); }
+.the_date-22 { background-image: url(../images/dateicons/red2.png); }
+.the_date-23 { background-image: url(../images/dateicons/red3.png); }
+.the_date-24 { background-image: url(../images/dateicons/red4.png); }
+.the_date-25 { background-image: url(../images/dateicons/silver-white1.png); }
+.the_date-26 { background-image: url(../images/dateicons/yellow1.png); }
+.the_date-27 { background-image: url(../images/dateicons/blue.png); }
+.the_date-28 { background-image: url(../images/dateicons/green1.png); }
+.the_date-29 { background-image: url(../images/dateicons/orange1.png); }
+.the_date-30 { background-image: url(../images/dateicons/red.png); }
+.the_date-31 { background-image: url(../images/dateicons/yellow1.png); }

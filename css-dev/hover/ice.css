@@ -1,0 +1,26 @@
+a.more-link:hover, .button:hover,
+#gloss:hover {
+	background : url(../../images/gloss/bar-ice.gif) repeat-x;
+}
+
+div.item-list-tabs ul li a:hover,
+ul.button-nav li a:hover, 
+div.generic-button a:hover,
+div.bp-widget h4:hover,
+.directory #sidebar h3:hover,
+.widget h3:hover {
+	background : url(../../images/gloss/title-ice.gif) no-repeat;	
+}
+
+.widget_pages ul li:hover,
+.widget_pages ul li li:hover,
+.widget_buddypages ul li:hover,
+.widget_buddypages ul li li:hover {
+	background : url(../../images/gloss/item-ice.gif) no-repeat;	
+}
+
+div.item-list-tabs ul li a:hover,
+.breadcrumbs:hover a,
+.widget_pages ul li:hover a,
+.widget_pages ul li li:hover a {	color : #666; }
+

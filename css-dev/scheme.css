@@ -1,0 +1,27 @@
+/* Layout */
+
+#lay_bar { color: #fff; }
+#lay_bar a { color: yellow; }
+#lay_bar a:hover { color: lightblue; text-decoration: underline blink; }
+
+#lay_bottom h3,
+#lay_bottom { color: #fff; }
+#lay_bottom a { color: #888; }
+#lay_bottom a:visited { color: #ccc; }
+#lay_bottom a:link { color: #ccc; }
+#lay_bottom a:hover { color: yellow; /*#08b;*/ }
+
+#lay_header { color: #222; }
+#lay_header a { color: #444; }
+
+#lay_footer { color: #444; }
+
+div.bp-widget h4 { color: #444; }
+div.bp-widget h4 a { color: #666; }
+
+h3.panetitle { color: black; }
+
+.post a:hover { text-decoration: underline blink; }
+
+select, input[type=submit], input[type=button],
+.comment-content .button { color: #222; }

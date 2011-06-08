@@ -1,0 +1,51 @@
+/* > Global Elements
+-------------------------------------------------------------- */
+
+body {
+	background: #eaeaea url( ../images/buddypress/background.gif ) top left repeat-x;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	line-height: 170%;
+	color: #555;
+	min-width: 960px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+	body.activity-permalink {
+		min-width: 960px;
+		max-width: 960px;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0 15px 0;
+}
+
+h1 { font-size: 28px; margin-bottom: 25px; }
+h2 { font-size: 24px; margin-bottom: 20px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; margin-bottom: 15px; }
+h5 { font-size: 14px; margin-bottom: 0; }
+h6 { font-size: 12px; margin-bottom: 0; }
+
+a { color: #1fb3dd; }
+a:hover, a:active { color: #888; }
+a:focus { outline: 1px dotted #ccc; }
+
+.padder { padding: 20px; }
+.clear { clear: left; }
+
+p {	margin-bottom: 15px; }
+p:last-child { margin-bottom: 0; }
+
+hr {
+	background-color:#E7E7E7;
+	border:0 none;
+	clear:both;
+	height:1px;
+	margin: 20px 0;
+}
+
+img.avatar {
+	float: left;
+	border: 2px solid #eee;
+}

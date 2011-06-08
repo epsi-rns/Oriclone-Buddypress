@@ -1,0 +1,33 @@
+a.more-link, .button,
+#gloss {
+	background : url(../../images/gloss/bar-blue.gif) repeat-x;
+}
+
+div.item-list-tabs ul li a,
+ul.button-nav li a, 
+div.generic-button a,
+div.bp-widget h4,
+.directory #sidebar h3,
+.widget h3  {
+	background : url(../../images/gloss/title-blue.gif) no-repeat;	
+}
+
+.widget_pages ul li,
+.widget_pages ul li li,
+.widget_buddypages ul li,
+.widget_buddypages ul li li {
+	background : url(../../images/gloss/bar-blue.gif) repeat-x;	
+}
+
+div.item-list-tabs ul li.selected a,
+div.item-list-tabs ul li.current a,
+.widget ul li.current_page_item,
+.widget ul li li.current_page_item,
+.widget_buddypages ul li.selected,
+.widget_buddypages ul li li.selected {
+	background : url(../../images/gloss/item-blue.gif) no-repeat;	
+}
+
+.breadcrumbs a,
+.widget_pages ul li,
+.widget_pages ul li li {	color : #884; }

@@ -1,0 +1,34 @@
+
+/* > Pagination
+-------------------------------------------------------------- */
+
+div.pagination {
+	margin: -15px -20px 9px -20px;
+	border-bottom: 1px solid #eaeaea;
+	padding: 10px 20px 10px 20px;
+	color: #888;
+	font-size: 11px;
+	height: 16px;
+}
+	div.pagination#user-pag, .friends div.pagination,
+	.mygroups div.pagination, .myblogs div.pagination, noscript div.pagination {
+		background: #f8f8f8;
+		border: none;
+		padding: 8px 15px;
+	}
+
+	div.pagination .pag-count {
+		float: left;
+	}
+
+	div.pagination .pagination-links {
+		float: right;
+	}
+		div.pagination .pagination-links span,
+		div.pagination .pagination-links a {
+			font-size: 12px;
+			padding: 0 5px;
+		}
+			div.pagination .pagination-links a:hover {
+				font-weight: bold;
+			}

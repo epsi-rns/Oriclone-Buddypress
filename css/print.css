@@ -1,0 +1,4 @@
+@media print {
+	.no-print	{ display:none; }
+	#wp-admin-bar	{ display:none; }
+}

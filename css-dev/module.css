@@ -1,0 +1,238 @@
+.widget { clear: both; }
+
+/* list in menu */
+.widget,
+.widget ul li {	
+	list-style-type: none;
+	list-style-image: none; 
+}
+
+.widget_buddypages ul li.selected,
+.widget_buddypages ul li li.selected,
+.widget ul li.current_page_item,
+.widget ul li li.current_page_item,
+.widget ul li.current-cat,
+.widget ul li li.current-cat
+	{	list-style-image:url(../images/accs/arrow.gif) ; }
+
+#sidebar ul li:hover,
+.widget_buddypages ul li.selected:hover,
+.widget_buddypages ul li li.selected:hover,
+.widget ul li.current_page_item:hover,
+.widget ul li.current-cat:hover
+	{	list-style-image:url(../images/accs/li1.gif) ; }	
+	
+/* mittwoch clone of background images */
+#gloss {
+	border : 1px solid #e3e3e3;
+}
+
+div.bp-widget h4,
+.directory #sidebar h3,
+.widget h3 {
+	border : 1px solid #e3e3e3;
+}
+
+.widget_pages ul li,
+.widget_pages ul li li,
+.widget_buddypages ul li,
+.widget_buddypages ul li li {
+	border : 1px solid #eee;
+}
+
+.widget_pages ul li,
+.widget_buddypages ul li {
+	border-right : 5px solid #dd6;
+}
+
+.widget_pages ul li li,
+.widget_buddypages ul li li {
+	border-left : 5px solid #dd6;
+}
+
+.widget_buddypages ul li.selected,
+.widget_buddypages ul li li.selected,
+.widget ul li.current_page_item,
+.widget ul li li.current_page_item {
+	border-left : 5px solid #88f;
+}
+
+.widget_pages ul li:hover,
+.widget_buddypages ul li:hover {
+	border-left : 5px solid #f80; 
+}
+
+.widget_pages ul li a span,
+.widget_buddypages ul li a span {
+	background : none;
+}
+
+.widget_buddypages ul li.selected a span,
+.widget ul li.current_page_item a span,
+.widget ul li.current-cat a span {
+	background : none;
+}
+
+.widget_pages ul li li a span,
+.widget_buddypages ul li li a span {
+	background : none;
+}
+
+/* inspired by mittwoch */
+
+#gloss {
+	height : 24px;
+	margin: 0px 5px 4px 5px;
+}
+
+.breadcrumbs {
+	overflow : hidden;
+	display : block;
+	height : 24px;
+	line-height : 24px;
+	float : left;
+	padding-left : 10px;
+}
+.breadcrumbs a:hover {
+	text-decoration : none;
+}
+
+/* CSS3 */
+
+#gototop,
+#gloss,
+div.bp-widget h4,
+.directory-sidebar h3,
+.widget h3,
+.widget_pages ul li,
+.widget_pages ul li li,
+.widget_buddypages ul li,
+.widget_buddypages ul li li {
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	border-radius:10px; 
+}
+
+/* menu and module */
+.widget {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.widget_pages,
+.widget_buddypages { padding-bottom: 10px; }
+
+div.bp-widget h4,
+.directory-sidebar h3,
+.widget h3 {
+	text-align : right;
+	height : 24px;
+	line-height : 24px;
+	padding-right : 10px;
+	padding-bottom : 0px; /* fix default screen.css*/
+	margin : 0 0 3px 0;
+}
+
+div.bp-widget h4 { 
+	text-align : left; 
+	padding: 0px 10px 0px 10px; 
+	line-height : 24px !important;	
+}
+
+#second-section h3.widgettitle {
+	margin-bottom: 8px; /* fix */
+}
+
+.widget_pages ul li a, 
+.widget_pages ul li li a,
+.widget_buddypages ul li a, 
+.widget_buddypages ul li li a { 
+	height : 24px;
+	list-style : none;
+	display : block;
+	vertical-align : middle;
+	font-size : 11px;
+	text-align : left;
+	padding : 0px 6px 0px 10px;
+}
+
+.widget_pages ul,
+.widget_pages ul li,
+.widget_buddypages ul,
+.widget_buddypages ul li {
+	margin : 0;
+	/*padding : 0;*/
+	padding-left: 10px;
+}
+
+.widget_pages ul li,
+.widget_pages ul li li,
+.widget_buddypages ul li,
+.widget_buddypages ul li li {
+	line-height : 22px;	
+	margin-bottom : 2px;
+}
+
+.widget_pages ul li ul,
+.widget_buddypages ul li ul {
+	padding-top : 8px;
+	margin-left : 3px;	
+	margin-right : 3px;	
+}
+
+/* default scheme */
+.widget_pages ul li a, 
+.widget_pages ul li li a,
+.widget_buddypages ul li a, 
+.widget_buddypages ul li li a { 
+	text-decoration : none;
+}
+
+.widget_pages ul li a, 
+.widget_pages ul li li a,
+.widget_buddypages ul li a, 
+.widget_buddypages ul li li a { color: #444; }
+
+/* search */
+#sidebar input,
+#sidebar select {
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	border-radius:10px; 
+}	
+
+#sidebar input,
+#sidebar select {
+	padding : 2px;
+	margin : 2px;
+	border : 1px solid #bbb;
+}
+
+#sidebar input#members_search,
+#sidebar input#blogs_search,
+.widget input#s,
+.widget input#search-members-form
+	{ background: #eee url(../images/silk/zoom.png) no-repeat top right; }
+
+#sidebar input[type="submit"] {
+	cursor:pointer;	
+	border:3px double #bbb;
+	margin:2px;
+	text-align:center;
+}
+
+/* two column */
+.widget_categories ul {
+	padding: 0 10px;
+}
+
+.widget_categories ul li { 
+	float: left; 
+	min-width: 85px; 
+	margin: 0 5px 0 0;
+	height: 16px;
+}
+
+.widget_categories ul:after {
+	clear: both;
+}

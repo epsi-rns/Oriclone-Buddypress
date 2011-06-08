@@ -1,0 +1,88 @@
+
+/* > Sidebar
+-------------------------------------------------------------- */
+
+div#sidebar {
+	float: left;
+	width: 224px;
+/*	margin-left: -226px;*/
+	margin-top: 1px;
+	border-left: 1px solid #e4e4e4;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	background: url( ../images/buddypress/sidebar_back.gif ) top left repeat-x;
+}
+	div#sidebar div#sidebar-me img.avatar {
+		float: left;
+		margin: 0 10px 15px 0;
+	}
+
+	div#sidebar div#sidebar-me h4 {
+		font-size: 16px;
+		margin: 0 0 8px 0;
+		font-weight: normal;
+	}
+
+
+	div#sidebar ul#bp-nav {
+		clear: left;
+		margin: 15px -16px;
+	}
+		div#sidebar ul#bp-nav li {
+			padding: 10px 15px;
+		}
+
+	div#sidebar h3.widgettitle {
+		margin: 25px -20px 10px -19px;
+		background: #eaeaea;
+		padding: 5px 15px;
+		font-size: 12px;
+		clear: left;
+	}
+
+	div#sidebar .widget_search {
+		margin-top: 20px;
+	}
+		div#sidebar .widget_search input[type=text] {
+			width: 110px;
+			padding: 2px;
+		}
+
+	div#sidebar ul#recentcomments li, div#sidebar .widget_recent_entries ul li {
+		margin-bottom: 15px;
+	}
+
+	div#sidebar ul.item-list img.avatar {
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+	}
+		div#sidebar div.item-avatar img {
+			width: 40px;
+			height: 40px;
+			margin: 1px;
+		}
+
+		div#sidebar .avatar-block { overflow: hidden; }
+
+	div#sidebar ul.item-list div.item-title {
+		font-size: 12px;
+	}
+
+	div#sidebar div.item-options {
+		margin: -10px -20px 0 -19px;
+		background: #f8f8f8;
+		padding: 5px 15px;
+		font-size: 11px;
+	}
+
+	div#sidebar div.item-meta, div#sidebar div.item-content {
+		margin-left: 38px;
+		font-size: 11px;
+	}
+
+	div#sidebar div.tags div#tag-text {
+		font-size: 1.4em;
+		line-height: 140%;
+		padding-top: 10px;
+	}

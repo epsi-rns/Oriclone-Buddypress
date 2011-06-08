@@ -1,0 +1,174 @@
+
+/* silk icon */
+div#message p,
+span.activity {
+	margin: 2px;
+	padding: 1px 8px 1px 24px;
+
+	line-height: 20px;
+	background-position: 3px 3px;
+	background-repeat: no-repeat;
+}
+
+span.highlight {
+	margin: 2px;
+	padding: 3px 8px 3px 24px;
+
+	line-height: 20px;
+	background-position: 3px 3px;
+	background-repeat: no-repeat;
+}
+
+.activity-list div.activity-meta a.fav,
+.activity-list div.activity-meta a.unfav,
+.activity-list div.activity-meta a.acomment-reply,
+.activity-list div.activity-meta a.like, 
+.activity-list div.activity-meta a.unlike, 
+.activity-list div.activity-meta a.view-likes,
+.messages-options-nav a#mark_as_unread,
+.messages-options-nav a#mark_as_read,
+.messages-options-nav a#delete_inbox_messages {
+	margin: 2px;
+	padding: 4px 8px 4px 24px;
+
+	line-height: 20px;
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+}
+
+.activity-list li.mini div.activity-meta a.like,
+.activity-list li.mini div.activity-meta a.fav,
+.activity-list li.mini div.activity-meta a.unfav,
+.activity-list li.mini div.activity-meta a.acomment-reply {
+	margin: 0px;
+	padding: 6px 8px 6px 24px;
+
+	line-height: 20px;
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+}
+
+
+.item-title span.update a,
+.acomment-meta a.acomment-reply,
+.acomment-meta a.acomment-delete,
+.activity-content a.delete-activity,
+.activity-content a.view {
+	padding: 2px 0px 2px 20px;
+
+	line-height: 20px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.activity-content a.delete-activity:hover,
+.activity-content a.view:hover,
+.acomment-meta a:hover {
+	text-shadow: 3px 3px 5px #888;
+}
+
+span.activity {
+	background-image: url(../images/silk/star.png);	
+}
+
+div#message p {
+	background-image: url(../images/silk/bell.png);
+}
+
+span.highlight {	
+	background-image: url(../images/silk/connect.png);	
+}
+
+.acomment-meta a.acomment-reply,
+.activity-list div.activity-meta a.acomment-reply {
+	background-image: url(../images/silk/pencil.png);
+}
+
+.activity-list li.mini div.activity-meta a.acomment-reply {
+	background-image: url(../images/silk/note_edit.png);
+}
+
+.activity-list div.activity-meta a.fav {
+	background-image: url(../images/silk/lightbulb.png);
+}
+
+.activity-list div.activity-meta a.unfav {
+	background-image: url(../images/silk/lightbulb_off.png);
+}
+
+.activity-list li.mini div.activity-meta a.fav {
+	background-image: url(../images/silk/lightbulb_add.png);
+}
+
+.activity-list li.mini div.activity-meta a.unfav {
+	background-image: url(../images/silk/lightbulb_delete.png);
+}
+
+
+.item-title span.update a,
+.activity-content a.view {
+	background-image: url(../images/silk/television.png);	
+}
+
+.acomment-meta a.acomment-delete,
+.activity-content a.delete-activity {
+	background-image: url(../images/silk/delete.png);	
+}
+
+/* messages */
+.messages-options-nav a#mark_as_unread {	
+	background-image: url(../images/silk/email.png);
+}
+.messages-options-nav a#mark_as_read{	
+	background-image: url(../images/silk/email_open.png);
+}
+.messages-options-nav a#delete_inbox_messages {	
+	background-image: url(../images/silk/email_delete.png);
+}
+
+/* like */
+.activity-list div.activity-meta a.like:hover,
+.activity-list div.activity-meta a.unlike:hover {
+	background-color: #55C940;
+	border-bottom: 1px solid #48A838!important;
+	border-right: 1px solid #48A838!important;
+	color: #ffffff!important;
+}
+
+.activity-content div.activity-meta a.like,
+.activity-list div.activity-meta a.like {	
+	background-image: url(../images/silk/thumb_up.png);
+}
+.activity-list div.activity-meta a.unlike {	
+	background-image: url(../images/silk/thumb_down.png);
+}
+.activity-list div.activity-meta a.view-likes {	
+	background-image: url(../images/silk/television.png);
+}
+
+/* download */
+
+.post span.file_compressed,
+.post span.file_excel,
+.post span.file_word,
+.post span.file_powerpoint {
+	padding: 2px 0px 2px 20px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.post span.file_compressed {
+	background-image: url(../images/silk/page_white_compressed.png);
+}
+
+.post span.file_excel {
+	background-image: url(../images/silk/page_white_excel.png);
+}
+
+.post span.file_word {
+	background-image: url(../images/silk/page_white_word.png);
+}
+
+.post span.file_powerpoint {
+	background-image: url(../images/silk/page_white_powerpoint.png);
+}

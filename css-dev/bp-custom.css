@@ -1,0 +1,143 @@
+/* ie6 fix */
+.activity-list .activity-content .activity-header {
+	width: 100%;
+}
+div.activity-meta { clear: none; }
+
+/* site wide */
+img.avatar {
+	border:2px solid #eee;
+}
+
+#item-header-avatar a img.avatar,
+a img.avatar:hover {	
+	-moz-box-shadow: #888 3px 3px 5px;
+	-webkit-box-shadow: #888 3px 3px 5px;
+	box-shadow: 3px 3px 5px #888;
+}
+
+#item-header-avatar a img.avatar {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.item-avatar { 	display: inline; }
+.item-avatar img.avatar { width: 40px; height: 40px;}
+
+div.pagination {
+	margin: 0 0 20px 0;
+	padding: 0;	
+}
+
+/* activity page */
+ul.button-nav li,
+div#item-actions ul li, 
+.item-list-tabs ul li { list-style: none; }
+
+#item-header,
+form#whats-new-form
+	{ margin: 0 10px; padding: 10px;}
+
+div.item-list-tabs	{
+	margin: 25px 0px 20px 0px;
+}
+
+div.item-list-tabs#subnav {
+	margin: -15px 0px 15px 0px;
+}
+
+div.item-list-tabs#subnav ul li.last {
+	margin: 0px;
+}
+
+div.item-list-tabs ul {
+	width: auto;
+	padding: 0px;
+}
+
+
+div.activity ul#activity-stream {
+	width: auto;
+	padding: 0;
+}
+
+/* members, groups */
+
+div.dir-search {
+	float: right;
+	margin: -37px 0 0 0;
+}
+
+div.item-list-tabs ul li.last {
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+div#groups-dir-list,
+div#members-dir-list {
+	width: auto;
+}
+
+ul.item-list { width: auto; }
+
+ul.item-list,
+.activity-comments ul {
+	padding: 0; 
+}
+
+ul.item-list li { 
+	list-style: none; 
+}
+
+table.forum {
+	width: auto;
+	margin: 0;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+ul#topic-post-list {
+	margin: 15px 0;
+}
+
+/* buttons */
+
+ul.button-nav li a, 
+div.generic-button a {
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #888;
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: bottom;
+	cursor: pointer;	
+}
+
+ul.button-nav li {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+	ul.button-nav li.current a {
+		font-weight: bold;
+	}
+
+#lay_main div.generic-button a:hover { 
+	color: #444; 
+	text-decoration: underline blink; 
+}
+
+/* forms */
+form.standard-form textarea:focus, 
+form.standard-form input[type=text]:focus,
+form.standard-form select:focus, 
+form.standard-form input[type=password]:focus,
+.dir-search input[type=text]:focus {
+	border: 1px dashed #fc0;
+}	
+
+

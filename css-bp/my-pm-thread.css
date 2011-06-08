@@ -1,0 +1,78 @@
+
+
+/* > Private Message Threads
+-------------------------------------------------------------- */
+
+table#message-threads tr.unread td {
+	background: #FFF9DB;
+	border-top: 1px solid #FFE8C4;
+	border-bottom: 1px solid #FFE8C4;
+	font-weight: bold;
+}
+	table#message-threads tr.unread td span.activity {
+		background: #fff;
+	}
+
+	li span.unread-count, tr.unread span.unread-count {
+		background: #dd0000;
+		padding: 2px 8px;
+		color: #fff;
+		font-weight: bold;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+		div.item-list-tabs ul li a span.unread-count {
+			padding: 1px 6px;
+			color: #fff;
+		}
+
+	div.messages-options-nav {
+		font-size: 11px;
+		background: #eee;
+		text-align: right;
+		margin: 0 -20px;
+		padding: 5px 15px;
+	}
+
+div#message-thread div.message-box {
+	margin: 0 -20px;
+	padding: 15px;
+}
+	div#message-thread div.alt {
+		background: #f4f4f4;
+	}
+
+	div#message-thread p#message-recipients {
+		margin: 10px 0 20px 0;
+	}
+
+	div#message-thread img.avatar {
+		float: left;
+		margin: 0 10px 0 0;
+		vertical-align: middle;
+	}
+
+	div#message-thread strong {
+		margin: 0;
+		font-size: 16px;
+	}
+		div#message-thread strong a {
+			text-decoration: none;
+		}
+
+		div#message-thread strong span.activity {
+			margin: 4px 0 0 10px;
+		}
+
+	div#message-thread div.message-metadata {
+		overflow: hidden;
+	}
+
+	div#message-thread div.message-content {
+		margin-left: 45px;
+	}
+
+	div#message-thread div.message-options {
+		text-align: right;
+	}

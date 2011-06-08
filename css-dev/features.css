@@ -1,0 +1,81 @@
+/* http://mootools.net/docs/more/Interface/Spinner */
+.spinner {
+	position: 'absolute';
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	zIndex: 999;
+	background: #fff;
+}
+.spinner-msg {
+	text-align: center;
+	font-weight: bold;
+}
+
+.spinner-img {
+	background: url('../images/effects/spinner.gif') no-repeat;
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+}
+
+/* http://davidwalsh.name/mootools-watermark */
+#gototop { 
+	display:none; position:fixed; right:5px; bottom:5px; 
+	color:green; text-decoration:underline;
+	border:1px solid green; background:Lightgreen; padding:10px; 
+}
+
+/* http://davidwalsh.name/hidden-accessibility-message-using-css */
+.accessibility { position: absolute; left: -9999px; font-size: small; }
+
+/* http://davidwalsh.name/css-page-breaks  */
+
+@media all
+{
+	.page-break	{ display:none; }
+}
+
+@media screen {
+	.page-break	{ 
+		height:10px; 
+		background:url(../images/notmine/page-break.gif) 0 center repeat-x; 
+		border-top:1px dotted #999; 
+		margin-bottom:13px; 
+	}
+}
+
+@media print
+{
+	.page-break	{ 
+		display:block; page-break-before:always; 
+		margin:0; 
+		border-top:none; 
+	}
+	.contentpaneopen a:after {	content: " [" attr(href) "] "; font-size: 90%;	}
+	a.more-link:after { content: none;	}
+}
+
+/* http://davidwalsh.name/external-favicon */
+.favicon { 
+	background-repeat:no-repeat; 
+	padding:2px 0 3px 22px; 
+	border-bottom: 1px dotted #ccc;
+}
+
+/* http://davidwalsh.name/dw-content/mootools-skype.php */
+a.more-link { position:relative; }
+.skypebutton {
+	width: 32px;
+	height: 32px;
+	background: transparent url(../images/accs/tick.gif);
+	position:absolute;
+	top:-8px;
+	left:-12px;
+	border:none;
+}
+
+/* http://davidwalsh.name/css-enhancements-user-experience */
+::selection
+	{ background:#fa8; color:#000; /* Safari and Opera */ }
+::-moz-selection
+	{ background:#fa8; color:#000; /* Firefox */ }

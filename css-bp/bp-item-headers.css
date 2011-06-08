@@ -1,0 +1,98 @@
+
+/* > Item Headers (Profiles, Groups)
+-------------------------------------------------------------- */
+
+div#item-header {
+	overflow: hidden;
+}
+	div#item-header div#item-header-content { margin-left: 170px; }
+
+	div#item-header h2 {
+		font-size: 28px;
+		margin: 0 0 15px 0;
+		line-height: 120%;
+	}
+		div#item-header h2 a {
+			text-decoration: none;
+			color: #777;
+		}
+
+	div#item-header img.avatar {
+		float: left;
+		margin: 0 15px 25px 0;
+	}
+
+	div#item-header h2 { margin-bottom: 5px; }
+
+	div#item-header span.activity, div#item-header h2 span.highlight {
+		vertical-align: middle;
+		font-size: 11px;
+		font-weight: normal;
+		line-height: 170%;
+		margin-bottom: 7px;
+	}
+
+	div#item-header h2 span.highlight { font-size: 16px; }
+	div#item-header h2 span.highlight span {
+		position: relative;
+		top: -2px;
+		right: -2px;
+		font-weight: bold;
+		font-size: 11px;
+		background: #a1dcfa;
+		color: #fff;
+		padding: 1px 4px;
+		margin-bottom: 2px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		vertical-align: middle;
+		cursor: pointer;
+		display: none;
+	}
+
+	div#item-header div#item-meta {
+		font-size: 14px;
+		color: #aaa;
+		padding-bottom: 10px;
+		overflow: hidden;
+		margin: 15px 0 5px 0;
+	}
+
+	div#item-header div#item-actions {
+		float: right;
+		width: 20%;
+		margin: 0 0 15px 15px;
+		text-align: right;
+	}
+		div#item-header div#item-actions h3 {
+			font-size: 12px;
+			margin: 0 0 5px 0;
+		}
+
+		div#item-header ul {
+			overflow: hidden;
+			margin-bottom: 15px;
+		}
+
+		div#item-header ul h5, div#item-header ul span, div#item-header ul hr {
+			display: none;
+		}
+
+		div#item-header ul li {
+			float: right;
+		}
+
+		div#item-header ul img.avatar, div#item-header ul.avatars img.avatar {
+			width: 30px;
+			height: 30px;
+			margin: 2px;
+		}
+
+	div#item-header div.generic-button, div#item-header a.button {
+		float: left;
+		margin: 10px 10px 0 0;
+	}
+
+	div#item-header div#message.info {
+		line-height: 80%;
+	}

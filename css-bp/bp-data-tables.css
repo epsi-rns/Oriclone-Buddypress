@@ -1,0 +1,111 @@
+
+
+
+/* > Data Tables
+-------------------------------------------------------------- */
+
+table {
+	width: 100%;
+}
+	table#message-threads {
+		margin: 0 -20px;
+		width: auto;
+	}
+
+	table.profile-fields { margin-bottom: 20px; }
+
+	div#sidebar table {
+		margin: 0 -16px;
+		width: 117%;
+	}
+
+	table tr td, table tr th {
+		padding: 8px;
+		vertical-align: middle;
+	}
+		table tr td.label {
+			border-right: 1px solid #eaeaea;
+			font-weight: bold;
+			width: 25%;
+		}
+
+		table tr td.thread-info p { margin: 0; }
+
+			table tr td.thread-info p.thread-excerpt {
+				color: #888;
+				font-size: 11px;
+				margin-top: 3px;
+			}
+
+		div#sidebar table td, table.forum td { text-align: center; }
+
+	table tr.alt {
+		background: #f4f4f4;
+	}
+
+table.notification-settings {
+	margin-bottom: 20px;
+	text-align: left;
+}
+	table.notification-settings th.icon, table.notification-settings td:first-child { display: none; }
+	table.notification-settings th.title { width: 80%; }
+	table.notification-settings .yes, table.notification-settings .no { width: 40px; text-align: center; }
+
+table.forum {
+	margin: -9px -20px 20px -20px;
+	width: auto;
+}
+	table.forum tr:first-child {
+		background: #fafafa;
+	}
+
+	table.forum tr.sticky td {
+		background: #FFF9DB;
+		border-top: 1px solid #FFE8C4;
+		border-bottom: 1px solid #FFE8C4;
+	}
+
+	table.forum tr.closed td.td-title {
+		padding-left: 35px;
+		background-image: url( ../images/buddypress/closed.png );
+		background-position: 15px 50%;
+		background-repeat: no-repeat;
+	}
+
+	table.forum td p.topic-text {
+		color: #888;
+		font-size: 11px;
+	}
+
+	table.forum tr > td:first-child, table.forum tr > th:first-child {
+		padding-left: 15px;
+	}
+
+	table.forum tr > td:last-child, table.forum tr > th:last-child {
+		padding-right: 15px;
+	}
+
+	table.forum tr th#th-title, table.forum tr th#th-poster,
+	table.forum tr th#th-group, table.forum td.td-poster,
+	table.forum td.td-group, table.forum td.td-title { text-align: left; }
+
+	table.forum td.td-freshness {
+		font-size: 11px;
+		color: #888;
+	}
+
+	table.forum td img.avatar {
+		margin-right: 5px;
+	}
+
+	table.forum td.td-poster, table.forum td.td-group  {
+		min-width: 130px;
+	}
+
+	table.forum th#th-title {
+		width: 40%;
+	}
+
+	table.forum th#th-postcount {
+		width: 1%;
+	}

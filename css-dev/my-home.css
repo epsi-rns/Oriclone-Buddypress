@@ -1,0 +1,75 @@
+
+.feat h3 { font-size: 16px; }
+.feat { font-size: 12px;}
+
+div.feat {
+	position: relative;
+}
+
+.home_button { 
+	margin-top: 10px;  
+	position: absolute;
+	right: 15px;
+	bottom: 20px;
+}
+
+div#feats {
+	text-align: center;
+	max-width: 1024px;
+	margin: auto;
+}
+div.feat {
+    vertical-align: top;
+    display: -moz-inline-stack;
+	display: inline-block;    
+    *display: inline;
+ 	zoom: 1;
+	
+	margin: 5px 10px;
+	padding: 10px;
+	
+	width: 250px; 
+	min-height: 170px;	
+	_height: 170px;
+	
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	border-radius:10px; 
+
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left : 3px solid #dd6;
+	border-right : 3px solid #dd6;	
+	
+	background: transparent url(../images/theme/shade.gif) repeat-x top;
+	
+	text-align: left;
+}
+
+.img_feat_member {
+	background: url(../images/openclipart/member.png) no-repeat top left;
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+.img_feat_group {
+	background: url(../images/openclipart/group.png) no-repeat top left;
+	float: left;
+	width: 110px;
+	height: 80px;
+}
+
+.img_feat_blog {
+	background: url(../images/openclipart/notepad.png) no-repeat top left;
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+.img_feat_news {
+	background: url(../images/openclipart/gallery.png) no-repeat top left;
+	float: left;
+	width: 80px;
+	height: 94px;
+}

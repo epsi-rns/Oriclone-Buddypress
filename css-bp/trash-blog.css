@@ -1,0 +1,203 @@
+
+/* > WordPress Blog Styles
+-------------------------------------------------------------- */
+
+div.post {
+	margin: 0 0 40px 0;
+	overflow: hidden;
+}
+	div.post h2.pagetitle, div.post h2.posttitle {
+		margin: 0;
+		line-height: 120%;
+	}
+		div.post h2.pagetitle a, div.post h2.posttitle a {
+			color: #666;
+			text-decoration: none;
+		}
+
+	.navigation, .paged-navigation, .comment-navigation {
+		overflow: hidden;
+		font-family: georgia, times, serif;
+		font-style: italic;
+		font-size: 14px;
+		padding: 5px 0;
+		margin: 5px 0 25px 0;
+	}
+		.alignright {
+			float: right;
+			margin-left: 15px;
+		}
+
+		.alignleft {
+			float: left;
+			margin-right: 15px;
+		}
+
+	div.post p { margin: 0 0 20px 0; }
+	div.post ul, div.post ol, div.post dl { margin: 0 0 18px 1.5em; }
+	div.post ul { list-style: square; }
+	div.post ol { list-style: decimal; }
+	div.post ol ol { list-style: upper-alpha; }
+	div.post dl { margin-left: 0; }
+	div.post dt { font-size: 14px; font-weight: bold; }
+	div.post dd { margin: 0 0 15px 0;}
+
+	div.post pre, div.post code p {
+		padding: 15px;
+		background: #f4f4f4;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	div.post code { font-family: "Monaco", courier, sans-serif; }
+	div.post blockquote {
+		quotes: none;
+		font-style:italic;
+		padding:0 3em;
+		font-family: georgia, times, serif;
+		font-size: 16px;
+		line-height: 150%;
+	}
+
+	div.post table {
+		border-collapse:collapse;
+		border-spacing:0;
+		border: 1px solid #eee;
+	}
+		div.post table th { border-top: 1px solid #eee; text-align: left; }
+		div.post table td { border-top: 1px solid #eee; }
+
+	div.post div.author-box, div.comment-avatar-box {
+		background: #f0f0f0;
+		padding: 10px;
+		float: left;
+		margin: 0 15px 15px 0;
+		font-family: georgia, times, serif;
+		font-style: italic;
+		text-align: center;
+		width: 70px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+		div.author-box p, div.comment-avatar-box p { margin: 5px 0 0; }
+		div.author-box a, div.comment-avatar-box a { text-decoration: none; }
+
+		div.post div.author-box img, div.comment-avatar-box img {
+			float: none;
+			border: 4px solid #fff;
+			margin: 0;
+		}
+
+	div.post div.post-content, div.comment-content {
+		margin-left: 105px;
+	}
+
+	div.post p.date, div.post p.postmetadata, div.comment-meta, div.comment-options {
+		color: #888;
+		font-size: 12px;
+		font-family: Georgia, times, serif;
+		padding: 3px 0;
+		margin: 10px 0;
+		border-bottom: 1px solid #e4e4e4;
+		border-top: 1px solid #e4e4e4;
+	}
+
+	div.post p.postmetadata {
+		margin-top: 15px;
+		clear: left;
+		overflow: hidden;
+	}
+
+	div.post .tags { float: left; }
+	div.post .comments { float: right; }
+
+	div.post img { margin-bottom: 15px; }
+	div.post img.wp-smiley { padding: 0 !important; margin: 0 !important; border: none !important; float: none !important; clear: none !important; }
+
+	div.post img.centered, img.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.post img.alignright {
+		padding: 4px;
+		margin: 0 0 2px 7px;
+		display: inline;
+	}
+
+	div.post img.alignleft {
+		padding: 4px;
+		margin: 0 7px 2px 0;
+		display: inline;
+	}
+
+	div.post .aligncenter, div.post div.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.post .wp-caption {
+		border: 1px solid #ddd;
+		text-align: center;
+		background-color: #f3f3f3;
+		padding-top: 4px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	div.post .wp-caption img {
+		margin: 0;
+		padding: 0;
+		border: 0 none;
+	}
+
+	div.post dd.wp-caption p.wp-caption-text, div.post .wp-caption p.wp-caption-text {
+		font-size: 0.9em;
+		line-height: 17px;
+		padding: 0 4px 5px 0;
+		margin: 0;
+	}
+
+/* > WordPress Blog Comment Styles
+-------------------------------------------------------------- */
+
+#trackbacks {
+	margin-top: 30px;
+}
+
+#comments h3, #trackbacks h3, #respond h3 {
+	font-size: 20px;
+	margin: 5px 0 25px 0;
+	font-weight: normal;
+	color: #555;
+}
+
+#comments span.title, #trackbacks span.title {
+	color: #aaa;
+}
+
+ol.commentlist li {
+	margin: 0 0 30px 0;
+}
+
+	div.comment-meta {
+		border-top: none;
+		padding-top: 0;
+	}
+
+	div.comment-meta h5 {
+		font-weight: normal;
+	}
+
+	div.comment-meta em {
+		float: right;
+	}
+
+	div.comment-options {
+		border-bottom: none;
+	}

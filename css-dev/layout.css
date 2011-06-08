@@ -1,0 +1,185 @@
+/* 
+http://www.barelyfitz.com/screencast/html-training/css/positioning/ 
+*/
+.clear, .clr { clear: both; }
+
+html {
+	height: 100%;
+	width: 100%;
+}	
+body {	
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+	width: 100%;
+	padding-top: 0 !important;
+}
+body div#wrapper { text-align: left; margin:0 auto; }
+body.width_small	div#wrapper { width:780px; }
+body.width_medium	div#wrapper { width: 950px; }
+body.width_fluid	div#wrapper {
+	min-width: 780px;
+	max-width: 1260px;
+}
+
+.mintheme {min-width: 780px; margin: 0 auto; padding: 0; }
+
+/* Fix div p, unwanted margin */
+div#lay_main p, div#lay_header p, div#lay_footer p, 
+div#lay_bar p, div#lay_bottom h3 {
+	margin:0 .25em;
+	padding:.25em 0;
+}
+
+/* admin bar */
+#wp-admin-bar { 
+	text-align: center;	
+}
+
+body.width_small	#wp-admin-bar { width:780px; }
+body.width_medium	#wp-admin-bar { width: 950px; }
+body.width_fluid	#wp-admin-bar {
+	min-width: 780px;
+	max-width: 1260px;
+}
+
+#wp-admin-bar .padder {
+	width: 90% !important; /* Line up the admin bar with the content body in this theme */
+	-moz-border-radius-bottomleft:13px; 
+	-moz-border-radius-bottomright:13px; 
+	-webkit-border-bottom-left-radius:13px; 
+	-webkit-border-bottom-right-radius:13px; 
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;	
+}
+
+@media screen {
+/* Main Layout */
+
+#lay_main {
+	text-align: left;
+	/*position:relative;	ie6 problem, do not uncomment */
+	padding: 10px 0 10px 0;
+}
+
+#lay_main  { min-height:400px; } * html #lay_main { height:400px; } /*ie6*/
+
+#main_content { width: 100%; }
+* html #main_content { width: 97%; }
+
+#lay_left {
+	float:left;
+	width:215px;
+	margin-left: 10px;
+}
+#lay_content { 
+	margin-left:225px;
+	margin-right:190px;
+	padding-left: 20px;
+	padding-right: 20px;	
+	min-width:345px; 
+}
+#lay_right {
+	float:right;
+	width:180px;
+	margin-right: 10px;
+}
+
+#main_content {
+	float: left;	/* fix clear scope */
+}
+
+.pos_c #lay_content {
+	margin-left: 10px;
+	margin-right: 10px;
+	min-width:735px;	
+}
+
+.pos_lcr  #lay_left, .pos_lc #lay_left {
+	float:left;
+	margin-left: 10px;
+}
+.pos_lcr #lay_right, .pos_cr #lay_right {
+	float:right;
+	margin-right: 10px;
+}
+
+.pos_lcr #lay_content {
+	margin-left: 225px;
+	margin-right: 190px;
+}
+
+.pos_lc #lay_content {
+	margin-left: 225px;
+	margin-right: 10px;
+	padding-right: 10px;
+	min-width:525px;
+}
+
+.pos_cr #lay_content {
+	margin-left: 10px;
+	margin-right: 190px;
+	padding-left: 10px;	
+	min-width:560px;
+}
+
+.pos_rcl #lay_left, .pos_cl #lay_left {
+	float:right;
+	margin-right: 10px;
+}
+.pos_rcl #lay_right, .pos_rc #lay_right {
+	float:left;
+	margin-left: 10px;
+}
+
+.pos_rcl #lay_content {
+	margin-left: 190px;
+	margin-right: 225px;
+}
+
+.pos_cl #lay_content {
+	margin-left: 10px;
+	margin-right: 225px;
+	padding-left: 10px;	
+	min-width:525px;		
+}
+
+.pos_rc #lay_content {
+	margin-left: 190px;
+	margin-right: 10px;
+	padding-right: 10px;
+	min-width:560px;	
+}
+
+.pos_lrc #lay_left, .pos_lrc #lay_right,
+.pos_rlc #lay_left, .pos_rlc #lay_right {
+	float:left;
+	margin-left: 10px;
+}
+
+.pos_rlc #lay_left { margin-left: 0px; }
+
+.pos_lrc #lay_content,
+.pos_rlc #lay_content {
+	margin-left: 425px;
+	margin-right: 10px;
+	padding-right: 10px;	
+}
+
+.pos_clr #lay_left, .pos_clr #lay_right,
+.pos_crl #lay_left, .pos_crl #lay_right {
+	float:right;
+	margin-right: 10px;
+}
+.pos_crl #lay_right { margin-right: 10px; }	/* list-style arrow space */
+
+.pos_clr #lay_content,
+.pos_crl #lay_content {
+	margin-left: 10px;
+	margin-right: 425px;
+	padding-left: 10px;		
+}
+
+/* end of media screen */
+}
+
